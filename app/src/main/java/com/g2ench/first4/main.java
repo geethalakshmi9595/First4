@@ -20,7 +20,7 @@ TextView e3;
         Intent intent=getIntent();
         String name=intent.getStringExtra("hello");
         e3=(TextView)findViewById(R.id.textView2);
-        e3.setText("hi"+name+"!");
+        e3.setText("hi"+name+"!!");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
